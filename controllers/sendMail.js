@@ -21,7 +21,7 @@ const sendMail = tryCatch(
     // Sending the mail using transporter
     const info = await transporter.sendMail({
         from: 'Notification Alert <notifierbot2@gmail.com>', // sender address
-        to: "20BQ1A05E2@vvit.net", //  receiver address
+        to: "ravi@anchors.in", //  receiver address
         subject: "Callback Details", // Subject line
         text: `username: ${username}\nMobile: ${num}`, // plain text body
         html: `<b>username: ${username}<br><br>Mobile: ${num}</b>`, // html body
